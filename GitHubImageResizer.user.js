@@ -32,5 +32,5 @@
     }
 
     // Register the menu command
-    GM_registerMenuCommand('Resize Images in Active Markdown Editor', replaceImageSize);
+    GM_registerMenuCommand('Resize Images', replaceImageSize);
 })();
