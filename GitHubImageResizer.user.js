@@ -11,6 +11,9 @@
 (function() {
     'use strict';
 
+    // Change this value to resize images
+    const IMAGE_WIDTH = "300";
+
     // Function: Get the currently focused textarea
     function getActiveTextArea() {
         const activeElement = document.activeElement;
@@ -22,7 +25,7 @@
         const textArea = getActiveTextArea();
         if (textArea) {
             const regex = /(?:<img.*?"(http.*?)">)|(?:!\[.*\]\((https.*?)\))/g;
-            textArea.value = textArea.value.replace(regex, '<img width="300" src="$1$2" />');
+            textArea.value = textArea.value.replace(regex, `<img width="${IMAGE_WIDTH}" src="$1$2" />`);
         } else {
             alert('Please focus on a textarea to resize images.');
         }
