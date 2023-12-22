@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GitHub Markdown Image Resizer
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      0.1
 // @description  Add menu command to resize images in the active GitHub Markdown editor
 // @author       Keisuke Kawhara (ktansai)
 // @match        https://github.com/*/*
