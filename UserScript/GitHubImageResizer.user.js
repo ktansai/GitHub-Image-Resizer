@@ -6,6 +6,7 @@
 // @author       Keisuke Kawhara (ktansai)
 // @match        https://github.com/*/*
 // @grant        GM_registerMenuCommand
+// @homepage     https://github.com/ktansai/GitHub-Image-Resizer
 // ==/UserScript==
 
 (function() {
